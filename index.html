@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Interactif</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Petit Quizz</h1>
+
+    <div class="container global">
+        <form class="quizz">
+
+            <div class="question-block">
+                <h4>1. Quelle est la capitale de la France ?</h4>
+                <label><input type="radio" name="q1" value="a"> Marseille</label><br>
+                <label><input type="radio" name="q1" value="b"> Lyon</label><br>
+                <label><input type="radio" name="q1" value="c"> Paris</label>
+            </div>
+
+            <div class="question-block">
+                <h4>2. Quelle est la couleur du ciel par temps clair ?</h4>
+                <label><input type="radio" name="q2" value="a"> Bleu</label><br>
+                <label><input type="radio" name="q2" value="b"> Vert</label><br>
+                <label><input type="radio" name="q2" value="c"> Rouge</label>
+            </div>
+            <div class="question-block">
+                <h4>3. Combien font 2 + 2 ?</h4>
+                <label><input type="radio" name="q3" value="a"> 3</label><br>
+                <label><input type="radio" name="q3" value="b"> 5</label><br>
+                <label><input type="radio" name="q3" value="c"> 4</label>
+            </div>
+
+            <button type="submit">Valider</button>
+        </form>
+        
+        <div class="resultats">
+            <h2>Résultats du quiz</h2>
+            <div class="note"></div>
+            <div class="aide"></div>
+        </div>
+    </div>
+
+    <script src="list.js"></script>
+</body>
+</html>
